@@ -1,3 +1,39 @@
+## 不透明度の画像適用と回転機能付きparticles.js
+
+### サンプル CodePen
+
+https://codepen.io/daldalshi/pen/eYdmBPz
+
+### 使い方
+------------------------------
+
+始めに言っておきます．
+私は英語もわからなければGitHubの使い方もわかりません．
+何か間違っていたら教えてください．
+
+使用方法は「particles.js」のJSONファイルの「size」や「opacity」と同じ階層に以下のように追加するだけです．
+回転なので負の値を使用できます．正の値なら右回転，負の値なら左回転です．
+当然0で回転無しなので「rotate_min」などもありません．
+「rotate_sync」等が無いのは使わないしめんどくさかったからです．
+
+**particles.json**
+```javascript
+"rotate": {
+  "value": -45,
+  "random": true,
+  "anim": {
+    "enable": true,
+    "speed": -10
+  }
+},
+```
+
+valueは-360～360で指定してください．
+speedは適当に調整してます．-10～10くらいがおすすめです．
+
+詳細はコードの中身を見てください．
+追記部分には”//add”とか書いてます．
+
 ## particles.js
 
 ### A lightweight JavaScript library for creating particles.
