@@ -1,7 +1,7 @@
 /* -----------------------------------------------
 /* Author :こう ~たぬき教教祖~
 /* MIT license: http://opensource.org/licenses/MIT
-/* GitHub : github.com/VincentGarreau/particles.js
+/* GitHub : https://github.com/KoTanukiKyoso/particles.jsWithRotateAndImageOpacity
 
 /* 英語わかりません．はい．
 /* 以下のparticles.jsをお借りして，
